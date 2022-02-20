@@ -4,61 +4,71 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="style.css" />
     <title>Document</title>
   </head>
   <body>
-    <header>
-      <div class="logo">Header Logo</div>
+    <!-- nav -->
+    <nav class="dark-theme">
+      <div class="logo">Duck Land</div>
       <ul>
-        <li>About</li>
-        <li>Home</li>
-        <li>Donate</li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Donate</a></li>
       </ul>
-    </header>
-    <div class="heading">
-        <h2>This website is awesome</h2>
-        <p>This website has some subtext that goes here under the</p>
-        <p>main title. It's a smaller font and the color is lower</p>
-        <p>contrast.</p>
+    </nav>
+    <!-- Info -->
+    <div class="info dark-theme">
+      <div>
+        <h2>The rubber duck site</h2>
+        <p>
+          This is a duck site.
+        </p>
         <button class="sign-up">Sign up</button>
-        <div>Placeholder for image</div>
+      </div>
+      <img src="./images/rubber duck.jpg" alt="a duck" height="150px" />
     </div>
+    <!-- content cards -->
     <div class="content">
-        <h3>Some random information.</h3>
-        <div class="cards">
-            <div class="card">
-                <div class="img-placeholder"></div>
-                <p class="text"></p>
-            </div>
-            <div class="card">
-                <div class="img-placeholder"></div>
-                <p class="text"></p>
-            </div>
-            <div class="card">
-                <div class="img-placeholder"></div>
-                <p class="text"></p>
-            </div>
-            <div class="card">
-                <div class="img-placeholder"></div>
-                <p class="text"></p>
-            </div>
+      <h3>Some random information.</h3>
+      <div class="cards">
+        <div class="card">
+          <img src="./images/bath-duck.jpg" alt="bath-duck" />
+          <p class="text">bath duck</p>
         </div>
+        <div class="card">
+          <img src="./images/chill duck.jpg" alt="a chill duck" />
+          <p class="text">chilling duck</p>
+        </div>
+        <div class="card">
+          <img src="./images/giant-duck.jpg" alt="giant duck" />
+          <p class="text">giant duck</p>
+        </div>
+        <div class="card">
+          <img src="./images/smart duck.jpg" alt="smart duck" />
+          <p class="text">smart duck</p>
+        </div>
+      </div>
     </div>
+    <!-- Quotes -->
     <div class="quote">
-        <p>This is an inspiring quote, or a testimonial from a</p>
-        <p>customer. Maybe it's just filling up space, or maybe</p>
-        <p>people will actually read it. Who knows? All I know</p>
-        <p>is that it looks nice.</p>
-        <span>-Thor, God of Thunder</span>
+      BIG BOI QUOTE LETS GO
+      <br />
+      -The Duck Guy
     </div>
+    <!-- Contact -->
     <div class="contact">
-        <div class="contact-text">
-            <h3>Call to action! It's time!</h3>
-            <p>Sign up for our product by clicking that button right over there!</p>
-            <button class="sign-up">Sign up</button>
-        </div>
+      <div class="contact-text">
+        <h3>Call to action! It's time!</h3>
+        <p>Sign up for our product by clicking that button right over there!</p>
+        <button class="sign-up">Sign up</button>
+      </div>
     </div>
-    <footer>Copyright &copy; The Odin Project 2021</footer>
+    <!-- Footer  -->
+    <footer class="dark-theme">Copyright &copy; The Odin Project 2021</footer>
   </body>
 </html>
